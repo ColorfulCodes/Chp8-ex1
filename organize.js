@@ -3,6 +3,7 @@ const fs = require('fs');
 let listOfNames =fs.readFileSync('names.txt', 'utf8')
 
 function alp (contents) {
+	// I'm commenting to test out a pull request
 	let a = contents.split("\n").sort();
 	let b = a.join("\n");
 	console.log('Total of ' + a.length + " names");
